@@ -17,5 +17,5 @@ jobs:
     - name: Build the Docker image
       run: |
            docker pull bde2020/hive
-           docker-compose exec hive-server bash
+           docker-compose exec hive-server bash.
               
